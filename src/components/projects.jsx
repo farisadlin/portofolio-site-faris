@@ -24,7 +24,7 @@ export default class Projects extends Component {
               >
                 <div
                   className="project"
-                  style={{ backgroundImage: "url(images/img-1.jpg)" }}
+                  style={{backgroundImage: "url(images/img-1.png)"}}
                 >
                   <div className="desc">
                     <div className="con">
@@ -70,11 +70,11 @@ export default class Projects extends Component {
               </div>
               <div
                 className="col-md-4 animate-box"
-                data-animate-effect="fadeInRight"
+                data-animate-effect="fadeInTop"
               >
                 <div
                   className="project"
-                  style={{ backgroundImage: "url(images/img-2.jpg)" }}
+                  style={{ backgroundImage: "url(images/img-2.png)" }}
                 >
                   <div className="desc">
                     <div className="con">
@@ -120,11 +120,11 @@ export default class Projects extends Component {
               </div>
               <div
                 className="col-md-4 animate-box"
-                data-animate-effect="fadeInTop"
+                data-animate-effect="fadeInRight"
               >
                 <div
                   className="project"
-                  style={{ backgroundImage: "url(images/img-3.jpg)" }}
+                  style={{ backgroundImage: "url(images/img-3.png)" }}
                 >
                   <div className="desc">
                     <div className="con">
@@ -168,12 +168,63 @@ export default class Projects extends Component {
                 </div>
               </div>
               <div
-                className="col-md-6 animate-box"
+                className="col-md-4 animate-box"
+                data-animate-effect="fadeInLeft"
+              >
+                <div
+                  className="project"
+                  style={{ backgroundImage: "url(images/img-4.png)" }}
+                >
+                  <div className="desc">
+                    <div className="con">
+                      <h3>
+                        <a
+                          href="https://hostingkite.farisadlin.com/"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          Landing Page Website
+                        </a>
+                      </h3>
+                      <span>
+                        <strong>Website</strong>
+                      </span>
+                      <span>
+                        Made a landing page for a hosting web site with ReactJS
+                        as a framework with React Hooks. Used Figma as both
+                        wireframe and mockup tool and fetched data using API
+                        built with Contentful. The app also using Netlify as its
+                        hosting. The website also has a responsive design that
+                        can be accessed through any device.
+                      </span>
+                      {/* <p className="icon">
+                        <span>
+                          <a href="#">
+                            <i className="icon-share3" />
+                          </a>
+                        </span>
+                        <span>
+                          <a href="#">
+                            <i className="icon-eye" /> 100
+                          </a>
+                        </span>
+                        <span>
+                          <a href="#">
+                            <i className="icon-heart" /> 49
+                          </a>
+                        </span>
+                      </p> */}
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="col-md-4 animate-box"
                 data-animate-effect="fadeInBottom"
               >
                 <div
                   className="project"
-                  style={{ backgroundImage: "url(images/img-4.jpg)" }}
+                  style={{ backgroundImage: "url(images/img-5.png)" }}
                 >
                   <div className="desc">
                     <div className="con">
@@ -218,12 +269,12 @@ export default class Projects extends Component {
                 </div>
               </div>
               <div
-                className="col-md-6 animate-box"
-                data-animate-effect="fadeInLeft"
+                className="col-md-4 animate-box"
+                data-animate-effect="fadeInRight"
               >
                 <div
                   className="project"
-                  style={{ backgroundImage: "url(images/img-5.jpg)" }}
+                  style={{ backgroundImage: "url(images/img-6.png)" }}
                 >
                   <div className="desc">
                     <div className="con">
